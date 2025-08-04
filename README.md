@@ -1,1 +1,1 @@
-# stock-trend-analyzer
+📈 Stock Market Trend Analyzer
