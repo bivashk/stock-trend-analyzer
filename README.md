@@ -16,7 +16,7 @@ This is a python-based tool that analyzes and visualizes stock price trends usin
 
 ## 📊 Example Output
 
-![Sample Chart](docs/sample_chart.png)  
+![Sample Chart](sample_chart.png)  
 
 ---
 
