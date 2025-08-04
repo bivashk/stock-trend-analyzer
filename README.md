@@ -1,27 +1,22 @@
 # 📈 Stock Market Trend Analyzer
-
-Analyze and visualize stock price trends effortlessly with this Python tool. Leveraging real-time data, technical indicators, and interactive charts, it helps traders and investors make informed decisions.
+This is a python-based tool that analyzes and visualizes stock price trends using technical indicators such as **moving averages** and **volatility**. It is built using **yfinance**, **pandas**, and **plotly**.
 
 ---
 
 ## 🚀 Features
 
-- **Fetch Historical Stock Data**  
-  Retrieve daily price data for any ticker from Yahoo Finance.
-- **Technical Indicators**  
+- Fetches historical stock data using [Yahoo Finance](https://finance.yahoo.com/)
+- Calculates: 
   - 50-day & 200-day Simple Moving Averages (SMA)  
   - Rolling Standard Deviation (Volatility)
-- **Interactive Visualization**  
-  Plot price charts and indicators using Plotly for intuitive exploration.
-- **Easy-to-Use CLI**  
-  Input the stock ticker and timeframe via command line.
+- Visualizes price movement and indicators with interactive graphs
+- Easy CLI input for stock ticker and time range
 
 ---
 
 ## 📊 Example Output
 
 ![Sample Chart](docs/sample_chart.png)  
-*Example: Price chart with 50/200-day SMA and rolling volatility.*
 
 ---
 
@@ -32,43 +27,6 @@ Analyze and visualize stock price trends effortlessly with this Python tool. Lev
 - [pandas](https://pandas.pydata.org/)
 - [plotly](https://plotly.com/python/)
 - [matplotlib](https://matplotlib.org/)
-
----
-
-## ⚡ Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/bivashk/stock-trend-analyzer.git
-cd stock-trend-analyzer
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the analyzer
-
-```bash
-python main.py --ticker AAPL --start 2022-01-01 --end 2023-01-01
-```
-Replace `AAPL` and dates with your desired stock and range.
-
----
-
-## 📂 Project Structure
-
-```
-.
-├── main.py
-├── analyzer/             # Core analysis logic
-├── data/                 # Example datasets
-├── docs/                 # Documentation & sample outputs
-└── README.md
-```
 
 ---
 
